@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lasya Sarada - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <header>
+        <nav class="navbar">
+      <div class="logo">Lasya Sarada</div>
+
+      <!-- Checkbox toggle for hamburger -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#my-art">My Art</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="CLasyaSarada_Resume.pdf" target="_blank">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <h1>Hello, I'm <span class="highlight">Chitluri Lasya Sarada</span></h1>
+      <h2><span id="typed"></span></h2>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Lasya, a passionate Software Engineer currently working at Telstra, with a total of 4 years of experience in the IT industry. I began my professional journey at Tata Consultancy Services (TCS), where I spent over 3 years 6 months specializing as a BMC Remedy Developer and Administrator.
+
+My expertise lies in configuring and optimizing ITSM applications, including Incident, Change, Problem, Release, and Work Order Management. I’ve developed and customized workflows, approval mappings, and SLAs to align with business objectives. I’m proficient with tools like Data Management Tools (DMT) and Data Import, enabling efficient data handling and system integration. I’ve also enhanced user experience through customized forms and views in Remedy.
+
+Over the years, I’ve been recognized for my contributions, earning accolades such as the "Star of the Month" and the "On the Spot Award" for exceptional performance and commitment. I’m known for my analytical thinking, dedication to quality, and my drive for continuous improvement.
+
+Beyond technology, I’m deeply passionate about art, storytelling, and self-expression. I enjoy drawing, watching movies, writing and sharing blogs on Instagram, and exploring spirituality. I live by the motto: “Live and let live,” and follow the principle: “Learn, unlearn, and relearn.” I believe in living a conscious, inspired life every day.</p>
+  </section>
+
+
+  <section id="my-art" class="portfolio">
+    <h2>My Art</h2>
+    <div class="filter-buttons">
+      <button onclick="filterSelection('fashion', this)">Fashion Sketches</button>
+      <button onclick="filterSelection('sad', this)">Sad</button>
+      <button onclick="filterSelection('sacred', this)">Sacred</button>
+      <button onclick="filterSelection('friendship', this)">Friendship</button>
+      <button onclick="filterSelection('love', this)">Love</button>
+      <button onclick="filterSelection('nature', this)">Nature</button>
+      <button onclick="filterSelection('all', this)">All</button>
+    </div>
+    <div class="grid" id="artGrid">
+      <!-- Fashion -->
+      <div class="card fashion"><img src="drawing1.png"/></div>
+      <div class="card fashion"><img src="drawing5.png"/></div>
+      <div class="card fashion"><img src="drawing6.png"/></div>
+      <div class="card fashion"><img src="drawing10.png"/></div>
+      <div class="card fashion"><img src="drawing14.png"/></div>
+      <div class="card fashion"><img src="drawing16.png"/></div>
+      <div class="card fashion"><img src="drawing20.png"/></div>
+      <div class="card fashion"><img src="drawing22.png"/></div>
+      <div class="card fashion"><img src="drawing23.png"/></div>
+      
+      <!-- Sad -->
+      <div class="card sad"><img src="drawing15.png"/></div>
+
+      <!-- Sacred -->
+      <div class="card sacred"><img src="drawing7.png"/></div>
+      <div class="card sacred"><img src="drawing8.png"/></div>
+      <div class="card sacred"><img src="drawing11.png"/></div>
+      <div class="card sacred"><img src="drawing21.png"/></div>
+
+      <!-- Friendship -->
+      <div class="card friendship"><img src="drawing12.png"/></div>
+
+      <!-- Love -->
+      <div class="card love"><img src="drawing2.png"/></div>
+      <div class="card love"><img src="drawing3.png"/></div>
+      <div class="card love"><img src="drawing4.png"/></div>
+      <div class="card love"><img src="drawing9.png"/></div>
+      <div class="card love"><img src="drawing13.png"/></div>
+      <div class="card love"><img src="drawing18.png"/></div>
+      <div class="card love"><img src="drawing19.png"/></div>
+
+      <!-- Nature -->
+      <div class="card nature"><img src="drawing17.png"/></div>
+      <div class="card nature"><img src="drawing24.png"/></div>
+    </div>
+  </section>
+
+<section id="blogs" class="blogs">
+  <h2>My Blogs</h2>
+  <div class="blog-container">
+    <div class="blog-card">
+      <img src="blog1.jpeg" alt="Blog 1">
+      <h3>3 Years Journey in TCS</h3>
+      <p>A personal reflection on journey of 3 years in TCS.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_tcs-youareaninspiration-consistant-activity-7226246684748472322-bAuC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+    <div class="blog-card">
+      <img src="blog2.jpeg" alt="Blog 2">
+      <h3>అమ్మ</h3>
+      <p>అమ్మ (Pronounced as AMMA), is the first word we utter.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_amma-mothersday-grateful-activity-7194949882388910082-xHn9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+    <div class="blog-card">
+      <img src="blog3.jpeg" alt="Blog 3">
+      <h3>Challenges that people face every day</h3>
+      <p>Thoughts on the power of unlearning in today’s fast-changing world and the importance of adaptability.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_noselfdoubtonlyselflove-beawareofyourself-activity-7192796592268058624-to2d?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+    <div class="blog-card">
+      <img src="blog4.jpeg" alt="Blog 3">
+      <h3>10K Run</h3>
+      <p>Today marks my first ever run and that too 10k run.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_tcsfit4life-10km-selfmotivated-activity-7164949471196295168-vdm4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+
+  </div>
+</section>
+
+ <!-- <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p><a href="CLasyaSarada_Resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+  </section>-->
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/chitluri-lasya-sarada/" target="_blank" class="contact-icon linkedin">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/lasyasarada" target="_blank" class="contact-icon github">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="mailto:lschitluri@gmail.com" class="contact-icon email">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+  </div>
+</section>
+  <footer>
+    <p>&copy; 2025 Lasya Sarada. All rights reserved.</p>
+  </footer>
+
+  <script>
+    var typed = new Typed("#typed", {
+      strings: ["a Software Engineer.", "an Artist.", "a Creative Thinker.","a Web Designer"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    });
+
+
+   function filterSelection(emotion, button = null) {
+      let cards = document.querySelectorAll('.grid .card');
+      cards.forEach(card => {
+        card.style.display = (emotion === 'all' || card.classList.contains(emotion)) ? 'block' : 'none';
+      });
+
+      if (emotion === 'all') {
+        cards.forEach((card, index) => {
+          card.style.display = index < 30 ? 'block' : 'none';
+        });
+      }
+
+      let buttons = document.querySelectorAll('.filter-buttons button');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      if (button) button.classList.add('active');
+    }
+
+    window.onload = () => {
+      let fashionBtn = document.querySelector('.filter-buttons button:nth-child(2)');
+      filterSelection('fashion', fashionBtn);
+    };
+
+  </script>
+</body>
+
+</html>
